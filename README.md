@@ -24,6 +24,6 @@ MAMPP/MySQL/PHP
 
 データベース名：yourcap_yourcoffee
 
-お使いのphpMyAdminに上記データーベースを作成して頂き、（smilelifeDB.sql）をインポートしていただければお使い頂けると思います。
+お使いのphpMyAdminに上記データーベースを作成して頂き、（yourcup_yourcoffee.sql）をインポートしていただければお使い頂けると思います。
 
 
