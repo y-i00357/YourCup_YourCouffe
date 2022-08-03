@@ -1,0 +1,599 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(240, 238, 238);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    text-align: center;
+}
+
+.header1_container {
+    background-color: #FAF0E6;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.header1_container a {
+    font-size: 17px;
+    color: black;
+}
+
+.top_wrapper {
+    text-align: center;
+}
+
+.top_container {
+    background-image: url(../img/coffee-3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.top_container h2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #4d352a;
+
+}
+
+.login_btn {
+    font-size: 20px;
+    background-color: #7b5544;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 7px;
+    opacity: 0.9;
+    border-radius: 3px;
+    letter-spacing: 2px;
+
+}
+
+.login_btn:hover {
+    opacity: 1;
+}
+
+.login_btn a {
+    color: whitesmoke;
+}
+
+.signup_btn {
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.signup_btn a:hover {
+    color: slategray;
+}
+
+.signup_btn a {
+    color: darkgrey;
+}
+
+.content_title {
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    background-color: #FAF0E6;
+    margin-top: 30px;
+}
+
+.signup_title {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.signup_wrapper {
+    text-align: center;
+}
+
+.signup_container h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.signup_form {
+    text-align: center;
+}
+
+.form_item {
+    margin: 10px auto;
+}
+
+.reg_btn {
+    background-color: #12521f;
+    color: white;
+    border: none;
+    opacity: 0.9;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.reg_btn:hover {
+    opacity: 1;
+}
+
+.login_btn_2 {
+    background-color: #12521f;
+    color: white;
+    border: none;
+    opacity: 0.9;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login_btn_2:hover {
+    opacity: 1;
+
+}
+
+.header2_list input {
+    border: none;
+    background-color: #FAF0E6;
+}
+
+.header2_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header2_container div:first-of-type {
+    margin-right: auto;
+}
+
+.header2_logo {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.header2_item {
+    display: flex;
+    line-height: 55px;
+    font-size: 12px;
+
+}
+
+.header2_item p {
+    margin: 0 11px;
+    color: black;
+}
+
+.header2_item a {
+    color: black;
+}
+
+.header2_item a:hover {
+    color: #12521f;
+}
+
+.header2_item input {
+    font-size: 12px;
+    margin-left: 7px;
+    margin-right: 10px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.header2_item input:hover {
+    color: #12521f;
+}
+
+.header2_list {
+    font-weight: 550;
+}
+
+.header2_container {
+    background-color: #FAF0E6;
+}
+
+
+
+.urse_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.urse_container div {
+    border: double 3px #7d7671;
+    margin: 15px;
+    
+}
+
+.coffee_inf {
+    position: relative;
+    padding: 30px;
+    width: 200px;
+}
+
+.coffee_inf p:last-child {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+
+
+.account_inf {
+    position: relative;
+    padding: 20px;
+    height: 150px;
+    width: 500px;
+}
+
+.account_inf a {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgb(54, 53, 53);
+    
+}
+
+
+
+.main_item a {
+    color: white;
+    background-color: #12521f;
+    border-radius: 3px;
+    padding: 2px 5px 0 5px;
+    letter-spacing: 3px;
+    opacity: 0.7;
+}
+
+.main_item a:hover {
+    opacity: 0.9;
+}
+
+.main_content_title {
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.main_content_title p {
+    font-size: 20px;
+}
+
+.main_content_title a {
+    color: rgb(156, 154, 154);
+    font-size: 15px;
+    margin-right: 80px;
+}
+
+.main_content_title a:hover {
+    color: #7d7671;
+}
+
+.main_content {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.paging {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    letter-spacing: 2rem;
+    font-weight: 700;
+    
+}
+
+.paging a {
+    color:rgb(104, 104, 104);
+}
+
+.paging a:hover {
+    color: black;
+}
+
+
+/* 動作の基本となるcss */
+
+.rating {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    
+}
+
+.hidden--visually {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* ここでデザインの変更 */
+
+.rating__label {
+    cursor: pointer;
+    color: gray;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.rating__icon::before {
+    content: "★";
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.rating__input:hover~.rating__label {
+    color: lightgray;
+}
+
+.rating__input:checked~.rating__label {
+    color: #ffbb00;
+}
+
+.post_title {
+    margin-bottom: 40px;
+}
+
+.post_title p:first-child {
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.post_title p:last-child {
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.post_container {
+    display: flex; 
+    justify-content:space-around; 
+    
+}
+
+
+
+.post_form  {
+    text-align: center;
+}
+
+.form_item p {
+    margin-bottom: 20px;
+}
+
+
+.chack_btn {
+    background-color: #418c50;
+    color: white;
+    border: none;
+    opacity: 0.9;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.chack_btn:hover {
+    opacity: 1;
+    background-color: #336e3f;
+    
+}
+
+.logout_wrapper {
+    background-image: url(../img/coffee_out.webp);
+    height: 770px;
+    background-size: cover;
+}
+
+.logout_title {
+    text-align: center;
+    color: #4d352a;
+    padding-top: 40px;
+    
+}
+
+.logout_title h3 {
+    color: white;
+    font-size: 35px;
+}
+
+.logout_title a {
+    color: #4d352a;
+    font-size: 20px;
+    font-weight: 700; 
+    opacity: 0.8;  
+}
+
+.logout_title a:hover {
+    opacity: 1;
+}
+
+
+/* 詳細画面 */
+.check_title {
+    margin: 20px 0 25px 30px;
+}
+
+.check_title  h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+}
+
+.check_title  p {
+    font-weight: 500;
+    color: #7d7671;
+}
+
+.img_container2 {
+    margin-top: 25px;
+}
+
+.comment {
+    border: double;
+    padding: 70px 100px;
+    margin: 0 60px;
+}
+
+.btn_speace {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn_speace p {
+    cursor: pointer;
+}
+
+p.btn_edit {
+    background-color: #238236;
+    margin-right: 100px;
+    border-radius: 4px;
+    opacity: 0.9;
+}
+
+p.btn_edit:hover {
+    opacity: 1;
+}
+
+p.btn_delete {
+    background-color: rgb(214, 32, 32);
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+p.btn_delete:hover {
+    opacity: 1;
+    
+}
+
+.btn_speace a {
+    color: white;
+    display:block;
+    padding: 5px 50px;
+}
+
+.back_btn a:hover {
+    opacity: 1;
+}
+
+.edit_wrapper {
+    margin-top: 65px;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+
+.edit_wrapper div {
+}
+
+.edit_title {
+    margin-bottom: 50px;
+}
+
+.edit_wrapper input {
+    margin-bottom: 35px;
+}
+
+.user_edit {
+    margin-top: 50px;
+    margin-left: 25px;
+    cursor: pointer;
+    padding: 8px 60px;
+    font-size: 13px;
+    border-style: none;
+    background-color: #12521f;
+    color: white;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.user_edit:hover {
+    opacity: 1;
+}
+
+.user_delete_link a {
+    color: #7d7671;
+    
+}
+.edit_item p {
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+
+.allpost_content {
+    display: flex;
+}
+
+.good_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-good{
+    display: inline-block;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.btn-good:hover{
+    color: #f44336;
+}
+.active{
+    color: #f44336;
+}
+.btn-good .active{
+    color: #f44336;
+}
+
+.post_comment {
+    margin-bottom: 30px;
+}
+
+.favorite_btn {
+    background-color:cornflowerblue;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border-color: white;
+    border-width: 3px;
+}
+
+.good_title {
+    margin-top: 5px;
+}
+
+.good_user_url {
+    font-size: 1.3rem;
+}
+
+.good_user_url:hover {
+    font-weight: 800;
+}
+
+.btn_space {
+    display: flex;
+    justify-content: center;
+}
